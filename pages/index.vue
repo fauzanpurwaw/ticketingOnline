@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="md:flex-auto md:w-64 w-98 m-9">
+                    <div class="md:flex-auto md:w-64 w-98 m-9 md:mt-0 mt-16">
                         <h2 class="text-xl font-semibold text-center underline hover:text-lg">Instruction</h2>
                         <div class="card border border-black rounded text-center mt-9 min-h-fit h-full">
                             <div class="instruction px-6">
