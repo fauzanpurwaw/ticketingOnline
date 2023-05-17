@@ -1,7 +1,8 @@
 <template>
     <div class="header">
         <div class="backdrop-blur-sm w-full h-full">
-            <div class="header-container">
+            <slot />
+            <div class="header-container pt-10">
                 <div class="header-content">
                     <h1 class="title">hallo, <span class="font-semibold">Selamat Datang!</span></h1>
                     <div class="search-bar">
@@ -46,7 +47,7 @@
 </template>
 <style>
 .header {
-    @apply bg-transparent w-full bg-[url('/img/header.jpg')] bg-cover bg-center sm:h-96 h-80 bg-no-repeat sticky;
+    @apply w-full bg-[url('/img/header.jpg')] bg-cover bg-center md:h-96 h-80 bg-no-repeat sticky;
 }
 
 .header-container {
@@ -74,7 +75,7 @@
 }
 
 .list-item {
-    @apply list-none text-center mt-2 min-w-fit;
+    @apply list-none text-center mt-2 min-w-fit hidden md:block;
 }
 </style>
 
