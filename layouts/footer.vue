@@ -1,17 +1,17 @@
-<template>
-    <div class="footer">
-        <div class="footer-content">
-            Create by Fauzan &copy;copyright
+    <template>
+        <div class="footer">
+            <div class="footer-content">
+                Create by Fauzan &copy;copyright
+            </div>
         </div>
-    </div>
-</template>
+    </template>
 
-<style>
-.footer {
-    @apply w-full text-center font-sans;
-}
+    <style>
+    .footer {
+        @apply w-full text-center font-sans;
+    }
 
-.footer-content {
-    @apply text-center p-5;
-}
-</style>
+    .footer-content {
+        @apply text-center p-5;
+    }
+    </style>
