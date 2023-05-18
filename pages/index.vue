@@ -1,19 +1,29 @@
 <template>
     <NuxtLayout :name="layouts.header">
-        <Navbar />
+        <div class="section w-full" id="destinasi">
+            <div class="text-center mx-16">
+                <Navbar />
+            </div>
+        </div>
     </NuxtLayout>
+    
     <div class="section w-full" id="destinasi">
-        <div class="my-5 text-center mx-16">
+        <div class="my-20 text-center mx-16">
             <Destination>
-                
+
             </Destination>
         </div>
     </div>
-    <div class="section w-full" id="destinasi">
-        <div class="my-5 text-center mx-16">
-            <Destination>
-                
-            </Destination>
+    <div class="section w-full" id="blog">
+        <div class="my-10 text-center mx-16">
+            <Blog>
+            </Blog>
+        </div>
+    </div>
+    <div class="section w-full" id="blog">
+        <div class="my-10 text-center mx-16">
+            <Blog2>
+            </Blog2>
         </div>
     </div>
 
@@ -21,7 +31,7 @@
 </template>
 <style>
 body {
-    @apply font-sans bg-slate-200;
+    @apply font-sans;
 }
 </style>
 <script>
