@@ -7,21 +7,21 @@
         </div>
     </NuxtLayout>
     
-    <div class="section w-full" >
-        <div class="my-20 text-center mx-16" >
+    <div class="section w-full xl:flex xl:justify-center" >
+        <div class="my-10 text-center lg:mx-16 sm:mx-10  max-w-7xl" >
             <Destination id="destinasi">
 
             </Destination>
         </div>
     </div>
-    <div class="section w-full" >
-        <div class="my-10 text-center mx-16" >
+    <div class="section w-full xl:flex xl:justify-center" >
+        <div class="my-10 text-center lg:mx-16 sm:mx-10 max-w-7xl" >
             <Blog id="blog">
             </Blog>
         </div>
     </div>
-    <div class="section w-full">
-        <div class="my-10 text-center mx-16">
+    <div class="section w-full xl:flex xl:justify-center">
+        <div class="my-10 text-center lg:mx-16 sm:mx-10 max-w-7xl">
             <Blog2>
             </Blog2>
         </div>
