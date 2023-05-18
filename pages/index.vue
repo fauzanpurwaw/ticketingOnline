@@ -1,26 +1,26 @@
 <template>
     <NuxtLayout :name="layouts.header">
-        <div class="section w-full" id="destinasi">
+        <div class="section w-full" >
             <div class="text-center mx-16">
                 <Navbar />
             </div>
         </div>
     </NuxtLayout>
     
-    <div class="section w-full" id="destinasi">
-        <div class="my-20 text-center mx-16">
-            <Destination>
+    <div class="section w-full" >
+        <div class="my-20 text-center mx-16" >
+            <Destination id="destinasi">
 
             </Destination>
         </div>
     </div>
-    <div class="section w-full" id="blog">
-        <div class="my-10 text-center mx-16">
-            <Blog>
+    <div class="section w-full" >
+        <div class="my-10 text-center mx-16" >
+            <Blog id="blog">
             </Blog>
         </div>
     </div>
-    <div class="section w-full" id="blog">
+    <div class="section w-full">
         <div class="my-10 text-center mx-16">
             <Blog2>
             </Blog2>

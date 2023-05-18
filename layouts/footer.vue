@@ -1,7 +1,9 @@
     <template>
         <div class="footer">
             <div class="footer-content">
-                Create by Fauzan &copy;copyright
+                <a href="https://www.instagram.com/jaanck_/" class="hover:underline">
+                    Create by Fauzan &copy;copyright
+                </a>
             </div>
         </div>
     </template>
