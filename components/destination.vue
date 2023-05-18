@@ -6,7 +6,7 @@
                 <p class="text-left">Saatnya kasih reward ke diri sendiri dengan rileks di hotel di berbagai destinasi
                     domestik menarik.</p>
             </div>
-            <div class="flex mt-10 gap-3 lg:overflow-hidden overflow-x-auto">
+            <div class="flex w-full mt-10 gap-4 lg:overflow-hidden overflow-x-auto py-5">
                 <div class="destination-item text-left">
                     <NuxtLink to="destinasi/bali">
                         <img class="w-full rounded-xl" src="/img/bali.webp" alt="">

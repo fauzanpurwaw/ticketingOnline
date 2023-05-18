@@ -1,10 +1,14 @@
 <template>
     <NuxtLayout :name="layouts.header">
-        <Navbar />
+        <div class="section w-full" >
+            <div class="text-center mx-16">
+                <Navbar />
+            </div>
+        </div>
     </NuxtLayout>
-    <div class="section w-full" id="destinasi">
-        <div class="my-5 text-center mx-16">
-            <CardSection :title="id" :image="'/img/' + id + '.webp'" :text="cardData.text">
+    <div class="section w-full xl:flex xl:justify-center" >
+        <div class="my-20 text-center lg:mx-16 sm:mx-10 max-w-7xl" >
+            <CardSection :title="id" :image="'/img/' + id + '.webp'">
             </CardSection>
         </div>
     </div>

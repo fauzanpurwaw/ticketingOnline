@@ -9,7 +9,7 @@
                                 tiket
                                 <span>
                                     <div class="mt-1 inline-block w-5 h-5 rounded-full bg-yellow-400"></div>
-                                </span>
+                                 </span>
                                 com
                             </p>
                         </div>
