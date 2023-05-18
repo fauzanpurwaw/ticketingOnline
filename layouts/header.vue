@@ -10,16 +10,20 @@
                     </div>
                     <div class="header-list">
                         <div class="list-item">
-                            <div class="p-2 rounded-full bg-slate-300 hover:bg-slate-400 mx-3">
-                                <img src="/img/flight.png" alt="" class="h-10 w-10">   
-                            </div>
-                            <h3 class="p-1 text-slate-200 font-semibold">Title</h3>
+                            <a href="#destinasi">
+                                <div class="p-2 rounded-full bg-slate-300 hover:bg-slate-400 mx-3">
+                                    <img src="/img/destination.png" alt="" class="h-10 w-10">   
+                                </div>
+                                <h3 class="p-1 text-slate-200 font-semibold">Destinasi</h3>
+                            </a>
                         </div>
                         <div class="list-item">
-                            <div class="p-2 rounded-full bg-slate-300 hover:bg-slate-400 mx-3">
-                                <img src="/img/flight.png" alt="" class="h-10 w-10">   
-                            </div>
-                            <h3 class="p-1 text-slate-200 font-semibold">Title</h3>
+                            <a href="#blog">
+                                <div class="p-2 rounded-full bg-slate-300 hover:bg-slate-400 mx-3">
+                                    <img src="/img/coffee-cup.png" alt="" class="h-10 w-10">   
+                                </div>
+                                <h3 class="p-1 text-slate-200 font-semibold">Blog</h3>
+                            </a>
                         </div>
                         <div class="list-item">
                             <div class="p-2 rounded-full bg-slate-300 hover:bg-slate-400 mx-3">
