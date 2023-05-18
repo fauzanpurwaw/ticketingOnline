@@ -8,7 +8,7 @@
     </NuxtLayout>
     
     <div class="section w-full xl:flex xl:justify-center" >
-        <div class="my-20 text-center lg:mx-16 sm:mx-10  max-w-7xl" >
+        <div class="my-10 text-center lg:mx-16 sm:mx-10  max-w-7xl" >
             <Destination id="destinasi">
 
             </Destination>
