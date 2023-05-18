@@ -7,10 +7,11 @@
                         <div class="flex w-full h-8 sm:ml-0 ml-3">
                             <p class="inline lg:text-xl tedt-sm text-slate-200">
                                 tiket
+                                
+                                com
                                 <span>
                                     <div class="mt-1 inline-block w-5 h-5 rounded-full bg-yellow-400"></div>
                                 </span>
-                                com
                             </p>
                         </div>
                     </div>
