@@ -1,26 +1,26 @@
 <template>
     <NuxtLayout :name="layouts.header">
-        <div class="section w-full" >
+        <div class="section w-screen" >
             <div class="text-center mx-16">
                 <Navbar />
             </div>
         </div>
     </NuxtLayout>
     
-    <div class="section w-full xl:flex xl:justify-center" >
+    <div class="section w-screen xl:flex xl:justify-center" >
         <div class="my-10 text-center lg:mx-16 sm:mx-10  max-w-7xl" >
             <Destination id="destinasi">
 
             </Destination>
         </div>
     </div>
-    <div class="section w-full xl:flex xl:justify-center" >
+    <div class="section w-screen xl:flex xl:justify-center" >
         <div class="my-10 text-center lg:mx-16 sm:mx-10 max-w-7xl" >
             <Blog id="blog">
             </Blog>
         </div>
     </div>
-    <div class="section w-full xl:flex xl:justify-center">
+    <div class="section w-screen xl:flex xl:justify-center">
         <div class="my-10 text-center lg:mx-16 sm:mx-10 max-w-7xl">
             <Blog2>
             </Blog2>
@@ -30,8 +30,11 @@
     <NuxtLayout :name="layouts.footer" />
 </template>
 <style>
+::-webkit-scrollbar {
+    display: none;
+}
 body {
-    @apply font-sans;
+    @apply font-sans text-center;
 }
 </style>
 <script>
